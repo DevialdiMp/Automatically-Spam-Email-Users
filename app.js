@@ -1,13 +1,12 @@
 const express = require("express");
 const dotenv = require("dotenv");
-const userRoutes = require("./routes/userRoutes");
+const spamRoutes = require("./routes/index");
 
 dotenv.config();
 const app = express();
 app.use(express.json());
 
-// Gunakan route untuk user
-app.use("/api/users", userRoutes);
+app.use("/api/users", spamRoutes);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
