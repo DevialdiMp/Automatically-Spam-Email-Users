@@ -1,4 +1,4 @@
-silahkan disesuaikan varial .env nya
+silahkan ditambah dan disesuaikan varible .env nya
 DATABASE_URL="your_db"
 
 EMAIL_USER="your_email"
