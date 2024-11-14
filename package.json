@@ -6,7 +6,7 @@
     "nodemailer": "^6.9.16",
     "prisma": "^5.22.0"
   },
-  "name": "emailspam",
+  "name": "AutomaticallySpamEmailUsers",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
